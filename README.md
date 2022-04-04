@@ -1,6 +1,11 @@
 
 # Rapport
 
+En app har skapats som heter "Världens bästa app". Appen har fått tillgång till internet i "AndroidManifest.xml". En webview med id:"my_webview" skapades i "content_main.xml". Sedan skapades en variabel i Java som blev kopplad med den view som har id:"my_webview". Javascript, WebViewClient lades in (se kodsnutt).
+```
+
+```
+
 **Skriv din rapport här!**
 
 _Du kan ta bort all text som finns sedan tidigare_.
