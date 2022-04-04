@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         myWebView = findViewById(R.id.my_webview);
-        myWebView.getSettings().setJavaScriptEnabled(true);
-        myWebView.setWebViewClient(new WebViewClient());
+        myWebView.getSettings().setJavaScriptEnabled(true);//Javascript is not enabled by default
+        myWebView.setWebViewClient(new WebViewClient());// We want to open this in the app.
 
 
         /*
